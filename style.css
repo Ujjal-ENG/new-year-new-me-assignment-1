@@ -37,6 +37,8 @@ header {
   justify-content: center;
   align-items: flex-end;
   text-align: right;
+  padding-top: 216px;
+  padding-right: 230px;
 }
 
 .banner-title {
@@ -47,6 +49,7 @@ header {
   color: #151414;
   width: 525px;
   height: 228px;
+  margin-bottom: 24px;
 }
 
 .banner-description {
@@ -57,4 +60,5 @@ header {
   color: #444343;
   width: 494px;
   height: 78px;
+  margin-bottom: 32px;
 }
