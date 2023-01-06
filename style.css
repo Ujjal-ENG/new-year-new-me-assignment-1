@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* Design the Header section */
@@ -16,4 +17,44 @@ header {
   background-image: url("./images/banner/banner1.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.primary-btn {
+  border: none;
+  color: white;
+  padding: 21px 25px 20px 26px;
+  background: #f15b22;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+}
+
+.banner-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #151414;
+  width: 525px;
+  height: 228px;
+}
+
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #444343;
+  width: 494px;
+  height: 78px;
 }
