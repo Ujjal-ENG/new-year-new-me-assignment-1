@@ -113,3 +113,55 @@ header {
   font-weight: bold;
   padding-right: 10px;
 }
+
+/* Design the Plan section */
+
+.my-plans {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 60px;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 6rem;
+}
+
+
+.plan img {
+  width: 95px;
+  height: 95px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.plan h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 20px;
+}
+
+.plan p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
