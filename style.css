@@ -167,7 +167,7 @@ header {
 
 /* Design the appointment section */
 
-.appoinment-section{
+.appoinment-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,3 +203,6 @@ header {
   margin-left: 70px;
   margin-bottom: 70px;
 }
+
+
+/* Design the Footer section */
