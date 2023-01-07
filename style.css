@@ -204,5 +204,87 @@ header {
   margin-bottom: 70px;
 }
 
-
 /* Design the Footer section */
+
+footer {
+  margin-top: 130px;
+  height: 60vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.future-section {
+  margin-top: 130px;
+  width: 485px;
+  height: 317px;
+}
+
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+
+.future-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.future-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+
+.future-section img {
+  margin-right: 18px;
+}
+
+.subscribe-section {
+  width: 325px;
+  height: 204px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.subscribe-section input {
+  padding: 22px 160px 22px 22px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.subscirbe-btn {
+  background-color: white;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f15b22;
+  border-radius: 10px;
+  margin-top: 16px;
+}
